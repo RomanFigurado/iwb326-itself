@@ -1,0 +1,13 @@
+[package]
+org = "vibesheak"
+name = "lawyer_client"
+version = "1.0.0"
+distribution = "2201.10.1"
+
+[build-options]
+observabilityIncluded = true
+
+[[platform.java11.dependency]]
+groupId = "com.mysql"
+artifactId = "mysql-connector-j"
+version = "8.3.0"
