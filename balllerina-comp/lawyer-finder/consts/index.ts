@@ -1,0 +1,22 @@
+const legalSpecialties = [
+    "Corporate Law",
+    "Criminal Law",
+    "Family Law",
+    "Intellectual Property Law",
+    "Employment and Labor Law",
+    "Environmental Law",
+    "Tax Law",
+    "Immigration Law",
+    "Real Estate Law",
+    "Healthcare Law",
+    "Bankruptcy Law",
+    "Human Rights Law",
+    "Cybersecurity and Data Privacy Law",
+    "Entertainment and Media Law",
+    "Sports Law",
+    "International Law",
+    "Maritime Law",
+    "Constitutional Law",
+    "Elder Law",
+    "Construction Law"
+];
