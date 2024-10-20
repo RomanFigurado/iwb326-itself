@@ -1,0 +1,59 @@
+Features
+User authentication (sign up, sign in, log out)
+Management of client and lawyer profiles
+Appointment scheduling between clients and lawyers
+Payment processing for services rendered
+Review system for clients to evaluate lawyers
+
+Technologies Used
+Ballerina
+MySQL
+HTTP/RESTful APIs
+
+Installation
+Clone the repository:
+Copy code
+git clone https://github.com/yourusername/legal-management-system-backend.git
+cd legal-management-system-backend
+
+Install the required dependencies:
+Make sure you have Ballerina installed. If not, follow the installation instructions from the Ballerina website.
+Configure your database settings in the .bal files as needed.
+
+Usage
+To run the program, use the following command:
+Copy code
+ballerina run 
+
+
+POSTMAN :-
+For example (Authentication Service)
+API Endpoints
+Authentication Service
+--Sign Up
+Endpoint: POST /auth/signup
+Request Body:
+json
+Copy code
+{
+    "first_name": "John",
+    "last_name": "Doe",
+    "email": "john.doe@example.com",
+    "password": "securepassword",
+    "role": "client"
+}
+
+Response: Returns user ID on successful registration.
+
+--Sign In
+Endpoint: POST /auth/signin
+Query Parameters:
+email: User's email
+password: User's password
+Response: Returns a success message on successful login.
+
+--Log Out
+Endpoint: POST /auth/logout
+Query Parameters:
+email: User's email
+Response: Returns a success message on logout.
